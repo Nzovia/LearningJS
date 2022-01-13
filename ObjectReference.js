@@ -30,3 +30,13 @@ let data = Object.assign({},student) ------creates a clone of the student known 
 */
 
 //console.log(Object.assign(clone, [student]));
+
+//create a function of the class
+function sayHi() {
+    console.log("Hello it is almost afternoon");
+}
+
+//add the method to the class
+student.sayHi = sayHi;
+//call the function
+student.sayHi();
